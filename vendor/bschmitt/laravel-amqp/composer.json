@@ -1,0 +1,42 @@
+{
+  "name": "bschmitt/laravel-amqp",
+  "description": "AMQP wrapper for Laravel and Lumen to publish and consume messages",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "laravel5",
+    "rabbitmq",
+    "amqp",
+    "queue",
+    "package",
+    "message queue",
+    "Björn Schmitt",
+    "bschmitt"
+  ],
+  "license": "MIT",
+  "support": {
+      "issues": "https://github.com/bschmitt/laravel-amqp/issues",
+      "source": "https://github.com/bschmitt/laravel-amqp"
+  },
+  "authors": [
+    {
+    "name": "Björn Schmitt",
+    "email": "code@bjoern.io"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "php-amqplib/php-amqplib": "2.*",
+    "illuminate/support": ">=5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "~0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bschmitt\\Amqp\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
